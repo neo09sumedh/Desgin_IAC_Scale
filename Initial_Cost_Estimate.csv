@@ -1,0 +1,15 @@
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Configuration summary
+My Estimate,US East (N. Virginia),Web Server,Amazon EC2,0,752.51,9030.12,USD,"Operating system (Linux), Quantity (2), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (1 TB), Instance type (r6g.2xlarge)"
+My Estimate,US East (N. Virginia),Application Server,Amazon EC2,0,752.51,9030.12,USD,"Operating system (Linux), Quantity (2), Pricing strategy (On-Demand Instances 1 Year No Upfront), Storage for each EC2 instance (General Purpose SSD (gp2)), Storage amount (1 TB), Instance type (r6g.2xlarge)"
+My Estimate,US East (N. Virginia),Aurora - MySQL DB Reader and Writer node,Amazon Aurora MySQL-Compatible,0,1844.27,22131.24,USD,"Change records per statement (0.38), Nodes (2), Instance Type (db.r3.2xlarge), Instance Family (Memory optimized), Pricing Model (OnDemand), Storage amount (1024 GB), Additional backup storage (2048 GB)"
+My Estimate,US East (N. Virginia),Load Balancer,Application Load Balancer,0,5288.85,63466.2,USD,Number of Application Load Balancers (2)
+My Estimate,US East (N. Virginia),NAT Gateway EIP,Amazon Elastic IP,0,0.25,3,USD,"Number of EC2 instances (2), Number of EIPs per instance (1), Number of EIP remaps (2)"
+My Estimate,US East (N. Virginia),S3,S3 Standard,0,24.29,291.48,USD,S3 Standard storage (1024 GB per month)
+My Estimate,US East (N. Virginia),S3,Data Transfer,0,0,0,USD,"DT Inbound: Internet (1 TB per month), DT Outbound: Amazon CloudFront (500 GB per month)"
+My Estimate,US East (N. Virginia),Data Transfer,Amazon Virtual Private Cloud (VPC),0,20.48,245.76,USD,"DT Inbound: Internet (1 TB per month), DT Outbound: Amazon CloudFront (500 GB per month), DT Intra-Region: (1 TB per month), Data transfer cost (20.48)"
+My Estimate,US East (N. Virginia),Monitoring Infra,Amazon CloudWatch,0,156.30415,1875.65,USD,"Number of Metrics (includes detailed and custom metrics) (5), Standard Logs: Data Ingested (100 GB), Vended Logs: Data Ingested (100 GB), Logs Delivered to S3: Data Ingested (100 GB), Number of Lambda functions (1), Number of requests per function (10 per hour), GetMetricData: Number of metrics requested (5), GetMetricWidgetImage: Number of metrics requested (5), Number of other API requests (0), Number of Dashboards (5), Number of Standard Resolution Alarm Metrics (5), Number of High Resolution Alarm Metrics (20), Number of composite alarms (10)"
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+Acknowledgement,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,
