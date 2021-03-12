@@ -4,15 +4,15 @@ This project has entire layout and design created using Infrastructure as code a
 
 Following Services has been used to complete this project
 
-VPC
-EC2
-S3 Buckets
-Terrform
-Regula
-CloudWatch
-Lambda
-SNS
-SQS
-CloudWatch
-Cost Estimation
-IAM 
+1) VPC,
+2) EC2,
+3) S3 Buckets,
+4) Terrform,
+5) Regula,
+6) CloudWatch,
+7) Lambda,
+8) SNS,
+9) SQS,
+10) CloudWatch,
+11) Cost Estimation,
+12) IAM 
